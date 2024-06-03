@@ -1,0 +1,215 @@
+/*===== 谷歌字体 =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.mycon {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url('../imgs/xqbj.jpg'); */
+    background-image: url('../imgs/whitebg.jpg');
+    /* background-image: url('https://webstatic.mihoyo.com/upload/op-public/2022/08/10/706e1d017fa0c693609803d9c82014a9_6896184362091703764.png'); */
+    background-size: cover;
+    background-repeat: repeat-y;
+    transition: filter 0.5s ease;
+    z-index: -1;
+    filter: blur(10px);/*模糊程度*/
+}
+
+
+
+:root{
+    --nav-width:92px;
+
+    /* 自定义颜色 */
+    --first-color:#0c5df4;
+    --bg-color:#3C3C3C;
+    --sub-color:#b6cefc;
+    --white-color:#fff;
+    --word-color:#99CCFF;
+
+    /* 规定一下字体 */
+    --body-font:'Poppins',sans-serif;
+    
+    --normal-font-size:1rem;
+    --smal-font-size:0.875rem;
+
+    /* 设置一下z-index级别 */
+    --z-fixed: 100;
+}
+.hcon h1 {
+position: relative;
+}
+.flg {
+    top: -10px;
+    position: absolute;
+    width: 5%;
+    height: 100%;
+    margin-left: 50px;
+}
+.lg {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+  
+*,::before,::after{
+    box-sizing: border-box;
+}
+.hcon{
+    width: 95%;
+    left: 80px;
+    background-color: #373d41;
+    position: relative;
+    border-radius: 0 0 120px 120px;
+}
+h1{
+    line-height:1;
+    margin-left: -80px;
+    font-size: 30px;
+    text-align: center;
+    /* 颜色渐变 */
+    /* background-image: linear-gradient(to right, orange, purple); */
+    /* background-image:(--bg-color); */
+    /* -webkit-background-clip: text;
+    font-size: 30px;
+    color: linear-gradient(to right, orange, purple); */
+    background-image: linear-gradient(to right, #fff, rgb(39, 122, 122));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a{
+  text-decoration: none;
+}
+.nav_body{
+    position: relative;
+    margin: 0;
+    padding: 2rem 0 0 16.75rem;
+    font-family: var(--word-font);
+    font-size: var(--normal-font-size);
+    transition: .5s;
+    background-color: #373d41;
+  }
+.body-pd{
+    padding: 2rem 0 0 16rem;
+}
+.l-navbar{
+    /* background-image:url('../images/1.jpg');
+    background-repeat: repeat-x; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    /* 100%的窗口高度 */
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--word-color);
+    padding: 1.5rem 1.5rem 2rem;
+    /* padding: 1.5rem 1,5rem 2rem; */
+    transition: 0.5s;
+    z-index: var(--z-fixed);
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+
+.nav_brand{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.nav_toggle{
+    font-size: 1.25rem;
+    padding: 0.75rem;
+    /* 鼠标放上变小手 */
+    cursor: pointer;
+}
+
+.nav_logo{
+    color: var(--word-color);
+    font-weight: 600;
+}
+
+.nav_link{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    column-gap: 0.75rem;
+    padding: 0.75rem;
+    color: var(--word-color);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.nav_link:hover{
+    background-color: var(--first-color);
+}
+
+.nav_icon{
+    font-size: 1.25rem;
+}
+
+.nav_name{
+    font-size: var(--smal-font-size);
+
+}
+
+.expander{
+    width: calc(var(--nav-width) + 9.25rem);
+}
+
+
+
+.active{
+    background-color: var(--first-color);
+}
+
+.collapse{
+    /* grid-template-columns: 20px max-content 1rf; */
+    grid-template-columns: 20px max-content 1fr;
+
+}
+
+
+.collapse__link{
+    justify-self: flex-end;
+    transition: .5s;
+}
+
+.collapse_menu{
+    display: none;
+    padding: .75rem 2.25rem;
+}
+
+.collapse__sublink{
+    color: var(--sub-color);
+    font-size: var(--smal-font-size);
+}
+
+.collapse__sublink:hover{
+    color: var(--white-color);
+}
+
+.showCollapse{
+    display: block;
+}
+
