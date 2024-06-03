@@ -1,0 +1,56 @@
+Date : 2023-05-24 10:59:16
+Directory : f:\cli\src
+Total : 20 files,  1357 codes, 216 comments, 167 blanks, all 1740 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Vue        |          9 |        700 |         35 |         40 |        775 |
+| JavaScript |          9 |        442 |        178 |         99 |        719 |
+| CSS        |          2 |        215 |          3 |         28 |        246 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------+------------+------------+------------+------------+------------+
+| path                                    | files      | code       | comment    | blank      | total      |
++-----------------------------------------+------------+------------+------------+------------+------------+
+| .                                       |         20 |      1,357 |        216 |        167 |      1,740 |
+| . (Files)                               |          2 |         35 |          0 |          5 |         40 |
+| api                                     |          1 |         35 |        122 |         41 |        198 |
+| assets                                  |          2 |        215 |          3 |         28 |        246 |
+| components                              |          8 |        685 |         35 |         39 |        759 |
+| components (Files)                      |          6 |        613 |         23 |         31 |        667 |
+| components\login                        |          2 |         72 |         12 |          8 |         92 |
+| config                                  |          4 |        307 |         54 |         42 |        403 |
+| hooks                                   |          1 |          9 |          0 |          3 |         12 |
+| router                                  |          1 |         58 |          2 |          7 |         67 |
+| store                                   |          1 |         13 |          0 |          2 |         15 |
++-----------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------+------------+------------+------------+------------+------------+
+| filename                                | language   | code       | comment    | blank      | total      |
++-----------------------------------------+------------+------------+------------+------------+------------+
+| f:\cli\src\App.vue                      | Vue        |         15 |          0 |          1 |         16 |
+| f:\cli\src\api\getData.js               | JavaScript |         35 |        122 |         41 |        198 |
+| f:\cli\src\assets\global.css            | CSS        |          8 |          0 |          0 |          8 |
+| f:\cli\src\assets\login.css             | CSS        |        207 |          3 |         28 |        238 |
+| f:\cli\src\components\Home.vue          | Vue        |         98 |          6 |          6 |        110 |
+| f:\cli\src\components\Login.vue         | Vue        |        118 |          4 |         10 |        132 |
+| f:\cli\src\components\TicketInquiry.vue | Vue        |        388 |         10 |         15 |        413 |
+| f:\cli\src\components\login\sign_in.vue | Vue        |         36 |          7 |          4 |         47 |
+| f:\cli\src\components\login\sign_up.vue | Vue        |         36 |          5 |          4 |         45 |
+| f:\cli\src\components\page1.vue         | Vue        |          3 |          1 |          0 |          4 |
+| f:\cli\src\components\page2.vue         | Vue        |          3 |          1 |          0 |          4 |
+| f:\cli\src\components\page3.vue         | Vue        |          3 |          1 |          0 |          4 |
+| f:\cli\src\config\env.js                | JavaScript |         15 |          8 |          3 |         26 |
+| f:\cli\src\config\fetch.js              | JavaScript |         66 |          0 |         10 |         76 |
+| f:\cli\src\config\mUtils.js             | JavaScript |        208 |         41 |         28 |        277 |
+| f:\cli\src\config\store_cookie.js       | JavaScript |         18 |          5 |          1 |         24 |
+| f:\cli\src\hooks\useEmitter.js          | JavaScript |          9 |          0 |          3 |         12 |
+| f:\cli\src\main.js                      | JavaScript |         20 |          0 |          4 |         24 |
+| f:\cli\src\router\index.js              | JavaScript |         58 |          2 |          7 |         67 |
+| f:\cli\src\store\index.js               | JavaScript |         13 |          0 |          2 |         15 |
+| Total                                   |            |      1,357 |        216 |        167 |      1,740 |
++-----------------------------------------+------------+------------+------------+------------+------------+
